@@ -21,11 +21,75 @@ public class MainActivity extends AppCompatActivity {
 
         // what boxes are clicked
         switch (view.getId()){
+
+            // arms
             case R.id.armscheck:
                 if (checked)
                     findViewById(R.id.arms).setVisibility(view.VISIBLE);
                 else
                     findViewById(R.id.arms).setVisibility(view.INVISIBLE);
+            // eyes
+            case R.id.eyescheck:
+                if (checked)
+                    findViewById(R.id.eyes).setVisibility(view.VISIBLE);
+                else
+                    findViewById(R.id.eyes).setVisibility(view.INVISIBLE);
+
+             // mouth
+            case R.id.mouthcheck:
+                if (checked)
+                    findViewById(R.id.mouth).setVisibility(view.VISIBLE);
+                else
+                    findViewById(R.id.mouth).setVisibility(view.INVISIBLE);
+
+            // eyebrows
+            case R.id.eyebrowscheck:
+                if (checked)
+                    findViewById(R.id.eyebrows).setVisibility(view.VISIBLE);
+                else
+                    findViewById(R.id.eyebrows).setVisibility(view.INVISIBLE);
+
+            // shoes
+            case R.id.shoescheck:
+                if (checked)
+                    findViewById(R.id.shoes).setVisibility(view.VISIBLE);
+                else
+                    findViewById(R.id.shoes).setVisibility(view.INVISIBLE);
+            // ears
+            case R.id.earscheck:
+                if (checked)
+                    findViewById(R.id.ears).setVisibility(view.VISIBLE);
+                else
+                    findViewById(R.id.ears).setVisibility(view.INVISIBLE);
+
+                // hat
+            case R.id.hatcheck:
+                if (checked)
+                    findViewById(R.id.hat).setVisibility(view.VISIBLE);
+                else
+                    findViewById(R.id.hat).setVisibility(view.INVISIBLE);
+
+                // nose
+            case R.id.nosecheck:
+                if (checked)
+                    findViewById(R.id.nose).setVisibility(view.VISIBLE);
+                else
+                    findViewById(R.id.nose).setVisibility(view.INVISIBLE);
+
+                // mustache
+            case R.id.mustachecheck:
+                if (checked)
+                    findViewById(R.id.mustache).setVisibility(view.VISIBLE);
+                else
+                    findViewById(R.id.mustache).setVisibility(view.INVISIBLE);
+
+                // glasses
+            case R.id.glassescheck:
+                if (checked)
+                    findViewById(R.id.glasses).setVisibility(view.VISIBLE);
+                else
+                    findViewById(R.id.glasses).setVisibility(view.INVISIBLE);
+
         }
 
     }

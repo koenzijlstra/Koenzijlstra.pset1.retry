@@ -52,7 +52,7 @@
     <CheckBox
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:id="@+id/Nose"
+        android:id="@+id/nosecheck"
         android:text="Nose"
         android:onClick="setvisibility"/>
 
