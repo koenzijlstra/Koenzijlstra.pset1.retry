@@ -65,7 +65,8 @@ public class MainActivity extends AppCompatActivity {
                     findViewById(R.id.ears).setVisibility(view.VISIBLE);
                 else
                     findViewById(R.id.ears).setVisibility(view.INVISIBLE);
-
+                break;
+            
                 // hat
             case R.id.hatcheck:
                 if (checked)
