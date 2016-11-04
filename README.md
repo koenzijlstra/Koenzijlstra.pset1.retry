@@ -1,6 +1,6 @@
 # Mr Potato Head
 
-an app that displays a “Mr. Potato Head” toy on the screen. 
+An app that displays a “Mr. Potato Head” toy on the screen. 
 The toy has several accessories and body parts that can be placed on it, such as eyes, nose, mouth, ears, hat, shoes, and so on.
 
 Initially the app displays only the toy’s body, but if the user checks/unchecks any of the checkboxes below the toy, 
@@ -9,7 +9,7 @@ the corresponding body part or accessory should appear/disappear.
 LAYOUT
 For the layout of the checkboxes i used a gridlayout, which puts the checkboxes in rows/colomns. The Images are in a relative layout.
 In order to be able to use the app in landscape mode activity_main.xml was copied 
-(and specified that the second was is for landscape mode by adding "land"). 
+(and specified that the second was for landscape mode by adding "land"). 
 
 INTERACTION BETWEEN CHECKBOXES AND VIEWS
 In the main xml i added "android:onClick="setvisibility"/>" for every checkbox, and android:visibility="invisible"/>. the former results in
