@@ -11,103 +11,12 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.koen.koenzijlstrapset1retry.MainActivity">
 
-<GridLayout
-    android:layout_height="wrap_content"
-    android:layout_width="wrap_content"
-    android:layout_centerHorizontal="true"
-    android:layout_marginTop="300dp">
-
-    <CheckBox
-        android:layout_height="wrap_content"
-        android:layout_width="100dp"
-        android:id="@+id/armscheck"
-        android:onClick="setvisibility"
-        android:text="Arms"/>
-
-    <CheckBox
-        android:layout_height="wrap_content"
-        android:layout_width="95dp"
-        android:id="@+id/mouthcheck"
-        android:text="Mouth"
-        android:onClick="setvisibility"/>
-
-    <CheckBox
-        android:layout_height="wrap_content"
-        android:layout_width="99dp"
-        android:id="@+id/shoescheck"
-        android:text="Shoes"
-        android:layout_column="0"
-        android:layout_row="2"
-        android:onClick="setvisibility"/>
-
-    <CheckBox
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:id="@+id/mustachecheck"
-        android:text="Mustache"
-        android:layout_column="0"
-        android:layout_row="1"
-        android:onClick="setvisibility"/>
-
-    <CheckBox
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:id="@+id/nosecheck"
-        android:text="Nose"
-        android:onClick="setvisibility"/>
-
-    <CheckBox
-        android:layout_height="wrap_content"
-        android:layout_width="100dp"
-        android:id="@+id/glassescheck"
-        android:text="Glasses"
-        android:layout_column="0"
-        android:layout_row="3"
-        android:onClick="setvisibility"/>
-
-    <CheckBox android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:id="@+id/eyescheck"
-        android:text="Eyes"
-        android:layout_column="1"
-        android:layout_row="3"
-        android:onClick="setvisibility"/>
-
-    <CheckBox
-        android:layout_height="wrap_content"
-        android:layout_width="100dp"
-        android:id="@+id/earscheck"
-        android:text="Ears"
-        android:layout_column="0"
-        android:layout_row="4"
-        android:layout_marginBottom="121dp"
-        android:onClick="setvisibility"/>
-
-    <CheckBox
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:id="@+id/eyebrowscheck"
-        android:text="Eyebrows"
-        android:layout_column="1"
-        android:layout_row="4"
-        android:onClick="setvisibility"/>
-
-    <CheckBox
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:id="@+id/hatcheck"
-        android:text="Hat"
-        android:layout_column="1"
-        android:layout_row="2"
-        android:onClick="setvisibility"/>
-
-</GridLayout>
-
     <RelativeLayout
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true">
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -156,14 +65,12 @@
             app:srcCompat="@drawable/hat"
             android:id="@+id/hat"
             android:visibility="invisible"/>
-
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/mouth"
             android:id="@+id/mouth"
             android:visibility="invisible"/>
-
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -194,5 +101,101 @@
             android:layout_alignParentStart="true" />
 
     </RelativeLayout>
+
+    <GridLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="41dp">
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:id="@+id/armscheck"
+            android:onClick="setvisibility"
+            android:text="Arms"/>
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:layout_width="95dp"
+            android:id="@+id/mouthcheck"
+            android:text="Mouth"
+            android:onClick="setvisibility"/>
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:layout_width="99dp"
+            android:id="@+id/shoescheck"
+            android:text="Shoes"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:onClick="setvisibility"/>
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/mustachecheck"
+            android:text="Mustache"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:onClick="setvisibility"/>
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/nosecheck"
+            android:text="Nose"
+            android:onClick="setvisibility"/>
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:id="@+id/glassescheck"
+            android:text="Glasses"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:onClick="setvisibility"/>
+
+        <CheckBox android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/eyescheck"
+            android:text="Eyes"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:onClick="setvisibility"/>
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:id="@+id/earscheck"
+            android:text="Ears"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:layout_marginBottom="121dp"
+            android:onClick="setvisibility"/>
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/eyebrowscheck"
+            android:text="Eyebrows"
+            android:layout_column="1"
+            android:layout_row="4"
+            android:onClick="setvisibility"/>
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/hatcheck"
+            android:text="Hat"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:onClick="setvisibility"/>
+
+    </GridLayout>
 
 </RelativeLayout>
