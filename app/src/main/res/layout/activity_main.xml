@@ -22,14 +22,16 @@
         android:layout_width="100dp"
         android:id="@+id/armscheck"
         android:onClick="setvisibility"
-        android:text="Arms"/>
+        android:text="Arms"
+        android:saveEnabled="false"/>
 
     <CheckBox
         android:layout_height="wrap_content"
         android:layout_width="95dp"
         android:id="@+id/mouthcheck"
         android:text="Mouth"
-        android:onClick="setvisibility"/>
+        android:onClick="setvisibility"
+        android:saveEnabled="false"/>
 
     <CheckBox
         android:layout_height="wrap_content"
@@ -38,7 +40,8 @@
         android:text="Shoes"
         android:layout_column="0"
         android:layout_row="2"
-        android:onClick="setvisibility"/>
+        android:onClick="setvisibility"
+        android:saveEnabled="false"/>
 
     <CheckBox
         android:layout_height="wrap_content"
@@ -47,14 +50,16 @@
         android:text="Mustache"
         android:layout_column="0"
         android:layout_row="1"
-        android:onClick="setvisibility"/>
+        android:onClick="setvisibility"
+        android:saveEnabled="false"/>
 
     <CheckBox
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:id="@+id/nosecheck"
         android:text="Nose"
-        android:onClick="setvisibility"/>
+        android:onClick="setvisibility"
+        android:saveEnabled="false"/>
 
     <CheckBox
         android:layout_height="wrap_content"
@@ -63,7 +68,8 @@
         android:text="Glasses"
         android:layout_column="0"
         android:layout_row="3"
-        android:onClick="setvisibility"/>
+        android:onClick="setvisibility"
+        android:saveEnabled="false"/>
 
     <CheckBox android:layout_height="wrap_content"
         android:layout_width="wrap_content"
@@ -71,7 +77,8 @@
         android:text="Eyes"
         android:layout_column="1"
         android:layout_row="3"
-        android:onClick="setvisibility"/>
+        android:onClick="setvisibility"
+        android:saveEnabled="false"/>
 
     <CheckBox
         android:layout_height="wrap_content"
@@ -81,7 +88,8 @@
         android:layout_column="0"
         android:layout_row="4"
         android:layout_marginBottom="121dp"
-        android:onClick="setvisibility"/>
+        android:onClick="setvisibility"
+        android:saveEnabled="false"/>
 
     <CheckBox
         android:layout_height="wrap_content"
@@ -90,7 +98,8 @@
         android:text="Eyebrows"
         android:layout_column="1"
         android:layout_row="4"
-        android:onClick="setvisibility"/>
+        android:onClick="setvisibility"
+        android:saveEnabled="false"/>
 
     <CheckBox
         android:layout_height="wrap_content"
@@ -99,7 +108,8 @@
         android:text="Hat"
         android:layout_column="1"
         android:layout_row="2"
-        android:onClick="setvisibility"/>
+        android:onClick="setvisibility"
+        android:saveEnabled="false"/>
 
 </GridLayout>
 
